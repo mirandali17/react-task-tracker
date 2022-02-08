@@ -94,6 +94,7 @@ const toggleReminder = async (id) => {
           }
            />
           <Route path='/about' element={<About />}></Route>
+          <Route path='/task/:id' element={<TaskDetails />} />
         </Routes>
         <Footer />
       </div>
