@@ -23,6 +23,12 @@
       "day": "test time",
       "reminder": true,
       "id": 4
+    },
+    {
+      "text": "test2",
+      "day": "feb 1st",
+      "reminder": false,
+      "id": 5
     }
   ]
 }
