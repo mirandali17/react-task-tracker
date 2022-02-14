@@ -6,6 +6,7 @@ import Tasks from './components/Tasks'
 import AddTask from './components/AddTask'
 import About from './components/About'
 import TaskDetails from './components/TaskDetails'
+import { FaSteamSquare } from 'react-icons/fa'
 
 const App = () => {
   const [showAddTask, setShowAddTask] = useState(false)
@@ -78,6 +79,7 @@ const toggleReminder = async (id) => {
 }
 
   return (
+    
     <Router>
       <div className="container">
         <Header onAdd={() => setShowAddTask(!showAddTask)}
