@@ -20,15 +20,33 @@
     },
     {
       "text": "test",
-      "day": "test time",
+      "day": "test day",
       "reminder": true,
       "id": 4
     },
     {
       "text": "test2",
-      "day": "feb 1st",
-      "reminder": false,
+      "day": "test day",
+      "reminder": true,
       "id": 5
+    },
+    {
+      "text": "test 3",
+      "day": "Feb 2nd",
+      "reminder": false,
+      "id": 6
+    },
+    {
+      "text": "test 4",
+      "day": "Jan 1st",
+      "reminder": false,
+      "id": 7
+    },
+    {
+      "text": "test",
+      "day": "Feb 6th",
+      "reminder": false,
+      "id": 8
     }
   ]
 }

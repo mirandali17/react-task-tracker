@@ -16,9 +16,9 @@ const Tasks = ({ tasks, onDelete, onToggle }) => {
     }
     return (
         <>
-            <div>
-                <input value={q1} onChange={(e)=>setQ1(e.target.value)} placeholder="search task"></input>
-                <input value={q2} onChange={(e)=>setQ2(e.target.value)} placeholder="search day"></input>
+            <div className='search'>
+                <input className="searchBar" value={q1} onChange={(e)=>setQ1(e.target.value)} placeholder="search task"></input>
+                <input className="searchBar" value={q2} onChange={(e)=>setQ2(e.target.value)} placeholder="search day"></input>
                 <FaSearch className='searchIcon'/>
             </div>
             {searchTask(tasks).map((task) => (

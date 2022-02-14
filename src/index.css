@@ -110,7 +110,12 @@ footer {
   margin-top: 30px;
   text-align: center;
 }
+.search {
+  margin: 5px;
+}
+.searchBar {
+  margin-right: 5px;
+}
 .searchIcon {
   padding-left: 3px;
-  cursor: pointer;
 }
