@@ -19,12 +19,6 @@
       "id": 3
     },
     {
-      "text": "test",
-      "day": "test day",
-      "reminder": true,
-      "id": 4
-    },
-    {
       "text": "test2",
       "day": "test day",
       "reminder": true,
@@ -47,6 +41,18 @@
       "day": "Feb 6th",
       "reminder": false,
       "id": 8
+    },
+    {
+      "text": "exam",
+      "day": "Mar 5th",
+      "reminder": true,
+      "id": 9
+    },
+    {
+      "text": "test",
+      "day": "test",
+      "reminder": false,
+      "id": 10
     }
   ]
 }
